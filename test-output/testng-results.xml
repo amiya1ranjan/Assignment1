@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-08-05T14:56:27Z" name="Testing Demo QA site" finished-at="2020-08-05T14:56:46Z" duration-ms="18618">
+    <groups>
+    </groups>
+    <test started-at="2020-08-05T14:56:27Z" name="Demo QA Test cases" finished-at="2020-08-05T14:56:46Z" duration-ms="18618">
+      <class name="com.sample.qa.testcases.SelectPageTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.sample.qa.testcases.SelectPageTest@50a7bc6e]" started-at="2020-08-05T20:26:27Z" name="setup" finished-at="2020-08-05T20:26:41Z" duration-ms="14031" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[demourl]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="SelectItemsTest()[pri:0, instance:com.sample.qa.testcases.SelectPageTest@50a7bc6e]" started-at="2020-08-05T20:26:41Z" name="SelectItemsTest" finished-at="2020-08-05T20:26:46Z" duration-ms="4563" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectItemsTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sample.qa.testcases.SelectPageTest@50a7bc6e]" started-at="2020-08-05T20:26:46Z" name="tearDown" finished-at="2020-08-05T20:26:46Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.sample.qa.testcases.SelectPageTest -->
+    </test> <!-- Demo QA Test cases -->
+  </suite> <!-- Testing Demo QA site -->
+</testng-results>

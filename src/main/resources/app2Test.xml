@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Testing Demo QA site" >
+    <test name="Demo QA Test cases">
+   
+         <classes>
+                 <class name="com.sample.qa.testcases.GillRegTest" />
+                  <parameter name = "url" value="gilleteUrl"/>
+           
+             
+          </classes>
+     </test> 
+</suite> 

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Testing Demo QA site" >
+    <test name="Demo QA Test cases">
+    <!-- <parameter name = "url" value="demourl"/> -->
+         <classes>
+         
+                 
+            <!-- <class name="com.sample.qa.testcases.RegisterPageTest" /> -->
+            <!-- <parameter name = "url" value="demourl"/> -->
+			<!-- <class name="com.sample.qa.testcases.AlertPageTest" /> -->
+			<class name="com.sample.qa.testcases.SelectPageTest" />
+			<!-- <class name="com.sample.qa.testcases.NewWindowTest" /> -->
+			<!-- <class name="com.sample.qa.testcases.framePageTest" />
+			<class name="com.sample.qa.testcases.DatePickerTest" /> -->
+			<parameter name = "url" value="demourl"/>
+			
+             
+          </classes>
+     </test> 
+</suite> 

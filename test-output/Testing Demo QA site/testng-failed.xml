@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Testing Demo QA site]">
+  <parameter name="url" value="demourl"/>
+  <test name="Demo QA Test cases(failed)">
+    <parameter name="url" value="demourl"/>
+    <classes>
+      <class name="com.sample.qa.testcases.SelectPageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="SelectItemsTest"/>
+        </methods>
+      </class> <!-- com.sample.qa.testcases.SelectPageTest -->
+    </classes>
+  </test> <!-- Demo QA Test cases(failed) -->
+</suite> <!-- Failed suite [Testing Demo QA site] -->
